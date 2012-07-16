@@ -57,13 +57,13 @@
 
 Code Quality Tools, Resources & References:
 
- * [JavaScript Plugin](http://docs.codehaus.org/display/SONAR/JavaScript+Plugin) for [Sonar](http://www.sonarsource.org/)
- * [jsPerf](http://jsperf.com/)
- * [jsFiddle](http://jsfiddle.net/)
- * [jsbin](http://jsbin.com/)
- * [JavaScript Lint (JSL)](http://javascriptlint.com/)
- * [jshint](http://jshint.com/)
- * [jslint](http://jslint.org/)
+* [JavaScript Plugin](http://docs.codehaus.org/display/SONAR/JavaScript+Plugin) for [Sonar](http://www.sonarsource.org/)
+* [jsPerf](http://jsperf.com/)
+* [jsFiddle](http://jsfiddle.net/)
+* [jsbin](http://jsbin.com/)
+* [JavaScript Lint (JSL)](http://javascriptlint.com/)
+* [jshint](http://jshint.com/)
+* [jslint](http://jslint.org/)
 
 ## Get Smart
 
@@ -73,18 +73,18 @@ Code Quality Tools, Resources & References:
 The following should be considered 
 
 1. incomplete, and 
-2. *REQUIRED READING*. 
+2. *required reading*
 
 I don't always agree with the style written by the authors below, but one thing is certain: They are consistent. Furthermore, these are authorities on the language.
 
- * [Baseline For Front End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/)
- * [Eloquent JavaScript](http://eloquentjavascript.net/)
- * [JavaScript, JavaScript](http://javascriptweblog.wordpress.com/)
- * [Adventures in JavaScript Development](http://rmurphey.com/)
- * [Perfection Kills](http://perfectionkills.com/)
- * [Douglas Crockford's Wrrrld Wide Web](http://www.crockford.com)
- * [JS Assessment](https://github.com/rmurphey/js-assessment)
- * [Leveraging Code Quality Tools by Anton Kovalyov](http://anton.kovalyov.net/slides/gothamjs/)
+* [Baseline For Front End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/)
+* [Eloquent JavaScript](http://eloquentjavascript.net/)
+* [JavaScript, JavaScript](http://javascriptweblog.wordpress.com/)
+* [Adventures in JavaScript Development](http://rmurphey.com/)
+* [Perfection Kills](http://perfectionkills.com/)
+* [Douglas Crockford's Wrrrld Wide Web](http://www.crockford.com)
+* [JS Assessment](https://github.com/rmurphey/js-assessment)
+* [Leveraging Code Quality Tools by Anton Kovalyov](http://anton.kovalyov.net/slides/gothamjs/)
 
 ### Build & Deployment Process
 
@@ -94,30 +94,30 @@ Projects should always attempt to include some generic means by which source can
 
 Projects _must_ include some form of unit, reference, implementation or functional testing. Use case demos DO NOT QUALIFY as "tests". The following is a list of test frameworks, none of which are endorsed more than the other.
 
- * [QUnit](http://github.com/jquery/qunit)
- * [Jasmine](https://github.com/pivotal/jasmine)
- * [Vows](https://github.com/cloudhead/vows)
- * [Mocha](https://github.com/visionmedia/mocha)
- * [Hiro](http://hirojs.com/)
- * [JsTestDriver](https://code.google.com/p/js-test-driver/)
- * [Buster.js](http://busterjs.org/)
- * [Sinon.js](http://sinonjs.org/)
+* [QUnit](http://github.com/jquery/qunit)
+* [Jasmine](https://github.com/pivotal/jasmine)
+* [Vows](https://github.com/cloudhead/vows)
+* [Mocha](https://github.com/visionmedia/mocha)
+* [Hiro](http://hirojs.com/)
+* [JsTestDriver](https://code.google.com/p/js-test-driver/)
+* [Buster.js](http://busterjs.org/)
+* [Sinon.js](http://sinonjs.org/)
 
 ## Table of Contents
 
- * [Preface](#Preface)
- * [Whitespace](#whitespace)
- * [Beautiful Syntax](#spacing)
- * [Type Checking (Courtesy jQuery Core Style Guidelines)](#type)
- * [Conditional Evaluation](#cond)
- * [Practical Style](#practical)
- * [Naming](#naming)
- * [Misc](#misc)
- * [Native & Host Objects](#native)
- * [Comments](#comments)
- * [One Language Code](#language)
+* [Preface](#preface)
+* [Whitespace](#whitespace)
+* [Beautiful Syntax](#spacing)
+* [Type Checking (Courtesy jQuery Core Style Guidelines)](#type)
+* [Conditional Evaluation](#cond)
+* [Practical Style](#practical)
+* [Naming](#naming)
+* [Misc](#misc)
+* [Native & Host Objects](#native)
+* [Comments](#comments)
+* [One Language Code](#language)
 
-## Preface
+# Preface
 
 The following sections outline a _reasonable_ style guide for modern JavaScript development and are not 
 meant to be prescriptive. The most important take-away is the **law of code style consistency**. 
@@ -125,9 +125,9 @@ Whatever you choose as the style for your project should be considered law.
 Link to this document as a statement of your project's commitment to code style consistency, 
 readability and maintainability.
 
-## Idiomatic Style Manifesto
+# Idiomatic Style Manifesto
 
-1. <a name="whitespace">Whitespace</a>
+## Whitespace
   - Never mix spaces and tabs.
   - When beginning a project, before you write any code, choose between soft indents (spaces) or real tabs, consider this **law**.
       - For readability, I always recommend setting your editor's indent size to two characters &mdash; this means two spaces or two spaces representing a real tab.
@@ -138,7 +138,7 @@ readability and maintainability.
       - Commits and diffs that are easier to read
 
 
-2. <a name="spacing">Beautiful Syntax</a>
+## Beautiful Syntax
 
     A. Parens, Braces, Linebreaks
 
@@ -396,7 +396,7 @@ readability and maintainability.
 
     Whitespace can ruin diffs and make changesets impossible to read. Consider incorporating a pre-commit hook that removes end-of-line whitespace and blanks spaces on empty lines automatically.
 
-3. <a name="type">Type Checking (Courtesy jQuery Core Style Guidelines)</a>
+## Type Checking (Courtesy jQuery Core Style Guidelines)
 
     A. Actual Types
 
@@ -641,15 +641,9 @@ readability and maintainability.
     neg >>> 0;
 
     // Will result in 4294967294
-
-
-
-
     ```
 
-
-
-4. <a name="cond">Conditional Evaluation</a>
+Conditional Evaluation
 
     ```javascript
 
@@ -757,9 +751,8 @@ readability and maintainability.
     "", 0, null, undefined, NaN, void 0
 
     ```
-
-
-5. <a name="practical">Practical Style</a>
+    
+Practical Style
 
     ```javascript
 
@@ -837,12 +830,8 @@ readability and maintainability.
     })( this );
 
     ```
-
-
-
-6. <a name="naming">Naming</a>
-
-
+    
+## Naming
 
     A. You are not a human code compiler/compressor, so don't try to be one.
 
@@ -1085,7 +1074,7 @@ readability and maintainability.
 
     `thisArg` can be used with `Array.prototype.every`, `Array.prototype.forEach`, `Array.prototype.some`, `Array.prototype.map`, `Array.prototype.filter`
 
-7. <a name="misc">Misc</a>
+## Misc
 
     This section will serve to illustrate ideas and concepts that should not be considered dogma, but instead exists to encourage questioning practices in an attempt to find better ways to do common JavaScript programming tasks.
 
@@ -1228,7 +1217,7 @@ readability and maintainability.
     ```
 
 
-8. <a name="native">Native & Host Objects</a>
+## Native & Host Objects
 
     The basic principle here is:
 
@@ -1243,20 +1232,21 @@ readability and maintainability.
     http://blip.tv/jsconf/jsconf2011-andrew-dupont-everything-is-permitted-extending-built-ins-5211542
 
 
-9. <a name="comments">Comments</a>
+## Comments
 
-  * Single line above the code that is subject
-  * Multiline is good
-  * End of line comments are prohibited!
-  * JSDoc style is good, but requires a significant time investment
+* Single line above the code that is subject
+* Multiline is good
+* End of line comments are prohibited!
+* JSDoc style is good, but requires a significant time investment
 
 
-10. <a name="language">One Language Code</a>
+## One Language Code
 
     Programs should be written in one language, whatever that language may be, as dictated by the maintainer or maintainers.
 
-## Appendix
+# Appendix
 
-### Comma First.
+## Comma First.
 
-Any project that cites this document as its base style guide will not accept comma first code formatting, unless explicitly specified otherwise by that project's author.
+Any project that cites this document as its base style guide will not accept comma first code formatting,
+unless explicitly specified otherwise by that project's author.
