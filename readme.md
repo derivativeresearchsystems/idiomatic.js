@@ -26,12 +26,11 @@
 * Evgeny Mandrikov [@\_godin\_](http://twitter.com/_godin_), [github](https://github.com/Godin)
 * Sofish Lin [@sofish](http://twitter.com/sofish), [github](https://github.com/sofish)
 
-## Important Principles That We Strive To Adhere To
+## Important Principles
 
 * All code in any code-base should look like a single person typed it, no matter how many people contributed.
 * The following list outlines the practices that I use in all code that I am the original author of; contributions to projects that I have created should follow these guidelines.
 * I do not intend to impose my style preferences on other people's code or projects; if an existing common style exists, it should be respected.
-
 
 > Arguments over style are pointless. There should be a style guide, and you should follow it
 
@@ -40,7 +39,6 @@
 > Part of being a good steward to a successful project is realizing that writing code for yourself is a Bad Idea™. If thousands of people are using your code, then write your code for maximum clarity, not your personal preference of how to get clever within the spec.
 
 – Idan Gazit
-
 
 ## Translations
 
@@ -54,7 +52,6 @@
 * [Russian](https://github.com/rwldrn/idiomatic.js/tree/master/translations/ru_RU)
 * [Romanian](https://github.com/rwldrn/idiomatic.js/tree/master/translations/ro_RO)
 * [简体中文](https://github.com/rwldrn/idiomatic.js/tree/master/translations/zh_CN)
-
 
 ## Important, Non-Idiomatic Stuff:
 
@@ -89,15 +86,9 @@ I don't always agree with the style written by the authors below, but one thing 
  * [JS Assessment](https://github.com/rmurphey/js-assessment)
  * [Leveraging Code Quality Tools by Anton Kovalyov](http://anton.kovalyov.net/slides/gothamjs/)
 
-
-
-
 ### Build & Deployment Process
 
 Projects should always attempt to include some generic means by which source can be linted, tested and compressed in preparation for production use. For this task, [grunt](https://github.com/cowboy/grunt) by Ben Alman is second to none and has officially replaced the "kits/" directory of this repo.
-
-
-
 
 ### Test Facility
 
@@ -114,6 +105,7 @@ Projects _must_ include some form of unit, reference, implementation or function
 
 ## Table of Contents
 
+ * [Preface](#Preface)
  * [Whitespace](#whitespace)
  * [Beautiful Syntax](#spacing)
  * [Type Checking (Courtesy jQuery Core Style Guidelines)](#type)
@@ -125,18 +117,15 @@ Projects _must_ include some form of unit, reference, implementation or function
  * [Comments](#comments)
  * [One Language Code](#language)
 
---
-
 ## Preface
 
-The following sections outline a _reasonable_ style guide for modern JavaScript development and are not meant to be prescriptive. The most important take-away is the **law of code style consistency**. Whatever you choose as the style for your project should be considered law. Link to this document as a statement of your project's commitment to code style consistency, readability and maintainability.
-
-
-
-
+The following sections outline a _reasonable_ style guide for modern JavaScript development and are not 
+meant to be prescriptive. The most important take-away is the **law of code style consistency**. 
+Whatever you choose as the style for your project should be considered law. 
+Link to this document as a statement of your project's commitment to code style consistency, 
+readability and maintainability.
 
 ## Idiomatic Style Manifesto
-
 
 1. <a name="whitespace">Whitespace</a>
   - Never mix spaces and tabs.
