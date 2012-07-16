@@ -1,7 +1,10 @@
 # Principles of Writing Consistent, Idiomatic JavaScript
 
+## Your Participation Required!
 
-## This is a living document and new ideas for improving the code around us are always welcome. Contribute: fork, clone, branch, commit, push, pull request.
+**This is a living document and new ideas for improving the code around us are always welcome.**
+
+**Contribute: fork, clone, branch, commit, push, pull request.**
 
 * Rick Waldron [@rwaldron](http://twitter.com/rwaldron), [github](https://github.com/rwldrn)
 * Mathias Bynens [@mathias](http://twitter.com/mathias), [github](https://github.com/mathiasbynens)
@@ -23,21 +26,20 @@
 * Evgeny Mandrikov [@\_godin\_](http://twitter.com/_godin_), [github](https://github.com/Godin)
 * Sofish Lin [@sofish](http://twitter.com/sofish), [github](https://github.com/sofish)
 
+## Important Principles That We Strive To Adhere To
 
-## All code in any code-base should look like a single person typed it, no matter how many people contributed.
-
-### The following list outlines the practices that I use in all code that I am the original author of; contributions to projects that I have created should follow these guidelines.
-
-### I do not intend to impose my style preferences on other people's code or projects; if an existing common style exists, it should be respected.
+* All code in any code-base should look like a single person typed it, no matter how many people contributed.
+* The following list outlines the practices that I use in all code that I am the original author of; contributions to projects that I have created should follow these guidelines.
+* I do not intend to impose my style preferences on other people's code or projects; if an existing common style exists, it should be respected.
 
 
-> ### "Arguments over style are pointless. There should be a style guide, and you should follow it"
->_Rebecca_ _Murphey_
+> Arguments over style are pointless. There should be a style guide, and you should follow it
 
-&nbsp;
+– Rebecca Murphey
 
-> ### "Part of being a good steward to a successful project is realizing that writing code for yourself is a Bad Idea™. If thousands of people are using your code, then write your code for maximum clarity, not your personal preference of how to get clever within the spec."
->_Idan_ _Gazit_
+> Part of being a good steward to a successful project is realizing that writing code for yourself is a Bad Idea™. If thousands of people are using your code, then write your code for maximum clarity, not your personal preference of how to get clever within the spec.
+
+– Idan Gazit
 
 
 ## Translations
@@ -56,7 +58,7 @@
 
 ## Important, Non-Idiomatic Stuff:
 
-### Code Quality Tools, Resources & References
+Code Quality Tools, Resources & References:
 
  * [JavaScript Plugin](http://docs.codehaus.org/display/SONAR/JavaScript+Plugin) for [Sonar](http://www.sonarsource.org/)
  * [jsPerf](http://jsperf.com/)
@@ -68,10 +70,15 @@
 
 ## Get Smart
 
-### [Annotated ECMAScript 5.1](http://es5.github.com/)
-### [EcmaScript Language Specification, 5.1 Edition](http://ecma-international.org/ecma-262/5.1/)
+* [Annotated ECMAScript 5.1](http://es5.github.com/)
+* [EcmaScript Language Specification, 5.1 Edition](http://ecma-international.org/ecma-262/5.1/)
 
-The following should be considered 1) incomplete, and 2) *REQUIRED READING*. I don't always agree with the style written by the authors below, but one thing is certain: They are consistent. Furthermore, these are authorities on the language.
+The following should be considered 
+
+1. incomplete, and 
+2. *REQUIRED READING*. 
+
+I don't always agree with the style written by the authors below, but one thing is certain: They are consistent. Furthermore, these are authorities on the language.
 
  * [Baseline For Front End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/)
  * [Eloquent JavaScript](http://eloquentjavascript.net/)
@@ -118,10 +125,7 @@ Projects _must_ include some form of unit, reference, implementation or function
  * [Comments](#comments)
  * [One Language Code](#language)
 
-
-
-------------------------------------------------
-
+--
 
 ## Preface
 
