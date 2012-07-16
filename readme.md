@@ -140,9 +140,9 @@ readability and maintainability.
 
 ## Beautiful Syntax
 
-    A. Parens, Braces, Linebreaks
+A. Parens, Braces, Linebreaks
 
-    ```javascript
+```js
 
     // if/else/for/while/try always have spaces, braces and span multiple lines
     // this encourages readability
@@ -202,7 +202,7 @@ readability and maintainability.
     } else {
       // statements
     }
-    ```
+```
 
 
     B. Assignments, Declarations, Functions ( Named, Expression, Constructor )
